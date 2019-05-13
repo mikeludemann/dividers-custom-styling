@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+
+body{
+	margin:0;
+	padding:0;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size:45px;
+	font-weight:700;
+	text-align:center;
+	color:#2c3e50;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-size:25px;
+	font-weight:400;
+	text-align:center;
+	color:#2c3e50;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+}
+
+svg {
+  background-color: transparent;
+}

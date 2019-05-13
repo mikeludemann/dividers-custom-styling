@@ -1,0 +1,34 @@
+body{
+	margin:0;
+	padding:0;
+}
+
+.cloudy--down{
+	height:100px;
+	width:100%;
+	background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#24B94A), color-stop(0.49, #24B94A), color-stop(0.51, #fff), to(white));
+	background-size: 50px 100%;
+}
+
+.cloudy--up{
+	height:100px;
+	width:100%;
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#24B94A), color-stop(0.49, #24B94A), color-stop(0.51, #fff), to(white));
+	background-size: 50px 100%;
+}
+
+.cloudy--block {
+	background:#24B94A;
+	width:60%;
+	padding:7% 20% 10% 20%;
+  color:#fff;
+  text-align: center;
+}
+
+.outside--cloudy--block {
+	background:#fff;
+	width:60%;
+	padding:7% 20% 10% 20%;
+	color:#24B94A;
+  text-align: center;
+}
